@@ -1,0 +1,24 @@
+
+<div>
+    <h1 id="log">LOGIN</h1>
+    <div></div>
+  
+    <input type="name" class="form-control mb-3" id="email" placeholder="nmae" name="email"
+      [(ngModel)]="email" />
+  
+    <input type="password" class="form-control" id="password" placeholder="Password" name="password"
+      [(ngModel)]="password" />
+  
+    <div><button class="btn btn-danger" (click)="checkLogin()">LOGIN</button></div>
+  </div>
+  <div>
+    
+    <button class="btn btn-success" type="button" (click)="redirecttohome()">LOGIN</button>
+  </div>
+  <!-- <div>
+    
+    <button class="btn btn-info" type="button" (click)="deleteuser()">delete</button>
+  </div> -->
+
+  <div>{{message}}</div>
+  
